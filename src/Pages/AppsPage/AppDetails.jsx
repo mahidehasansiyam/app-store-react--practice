@@ -15,7 +15,7 @@ const AppDetails = () => {
     setInstalledApps([...installedApps,expectedApp])
   }
 
-  console.log(installedApps);
+  // console.log(installedApps);
 
     
   // console.log(expectedApp);

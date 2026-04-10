@@ -5,6 +5,7 @@ import Error from "../Component/Error";
 import AppsPage from "../Pages/AppsPage/AppsPage";
 import Installation from "../Pages/InstallationPage/Installation";
 import AppDetails from "../Pages/AppsPage/AppDetails";
+import DasBoard from "../Pages/DasBoard/DasBoard";
 
 
 
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: '/installation',
         Component: Installation
+      },
+      {
+        path: '/dasboard',
+        Component:DasBoard
       },
       {
         path: '/apps/:id',

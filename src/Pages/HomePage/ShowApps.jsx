@@ -7,7 +7,7 @@ const ShowApps = ({ app }) => {
   
   return (
     <NavLink to={`/apps/${app.id}`}>
-      <div className=" border p-4 rounded-2xl space-y-2">
+      <div className=" border p-4 rounded-2xl space-y-2 ">
         <img className="w-[250px]" src={app.image} alt="" />
         <h2>{app.title}</h2>
         <div className="flex justify-between">

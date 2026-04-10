@@ -14,7 +14,7 @@ const TrendingApps = () => {
         <h2 className="text-3xl font-bold">Trending Apps</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </div>
-      <div className="grid grid-cols-4 justify-items-center items-center container mx-auto gap-4">
+      <div className="grid grid-cols-4 justify-items-center items-center container mx-auto gap-4 auto-rows-fr">
         {apps.slice(0, 9).map(app => (
           <ShowApps key={app.id} app={app}></ShowApps>
         ))}

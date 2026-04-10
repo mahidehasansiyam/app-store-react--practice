@@ -34,6 +34,7 @@ const Navbar = () => {
               <NavStyle to={'/'}>Home</NavStyle>
               <NavStyle to={'/apps'}>Apps</NavStyle>
               <NavStyle to={'/installation'}>Installation</NavStyle>
+              <NavStyle to={'/dasboard'}>Dasboard</NavStyle>
             </ul>
           </div>
           <img className="w-[50px]" src={logo} alt="" />
@@ -43,6 +44,7 @@ const Navbar = () => {
             <NavStyle to={'/'}>Home</NavStyle>
             <NavStyle to={'/apps'}>Apps</NavStyle>
             <NavStyle to={'/installation'}>Installation</NavStyle>
+            <NavStyle to={'/dasboard'}>Dasboard</NavStyle>
           </ul>
         </div>
         <div className="navbar-end">

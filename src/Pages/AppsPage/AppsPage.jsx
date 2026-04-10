@@ -10,12 +10,12 @@ const AppsPage = () => {
         <h2 className="text-3xl font-bold">Trending Apps</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </div>
-      <div className="grid grid-cols-4 justify-items-center items-center container mx-auto gap-4 mb-8">
+      <div className="grid grid-cols-4 justify-items-center items-center container mx-auto gap-4 mb-8 auto-rows-fr">
         {apps.map(app => (
           <ShowApps key={app.id} app={app}></ShowApps>
-        ))};
+        ))}
+        ;
       </div>
-      
     </div>
   );
 };
